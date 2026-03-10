@@ -1,0 +1,47 @@
+Boago UB MSc Candidate
+Topic : Climate Change Impact on Maize Production across the drought corridor
+
+Climate data period:
+1981-2010 (baseline period)
+2011-2040 (near future)
+2041-2070 (mid future)
+2071-2100 (far future)
+
+Daily climate data required by DSSAT:
+Incoming solar radiation
+Minimum Temperature (tmin)
+Maximum Temperature (tmax)
+Daily rainfall
+
+Desired climate data format: .WTH
+
+Models suggested: 9 bias corrected CORDEX CORE models
+-worst case scenarios (8.5)
+
+Study area coordinates
+
+Tanzania :
+-6.84944,37.66556
+-9.47,35.02
+-6.8083,38.2833
+
+Kenya:
+-0.766666667,37.65
+
+Botswana:
+-19.548989,23.76863
+-18.52779000,25.62698000
+-25.666667,25.5
+
+Malawi
+-15.75,35.666666667
+-13.96669194444,33.78725
+
+Zambia
+-15.4,28.333333
+
+South Africa
+-30.4,29.4
+
+The .WTH Format example:
+Found in Github : File name : ExampleWTHfile
