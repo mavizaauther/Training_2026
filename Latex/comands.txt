@@ -1,0 +1,49 @@
+%\ useful packages
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage{times}
+
+%\geometry settings
+\geometry{
+  left=4cm,
+  right=2cm,
+  top=2cm,
+  bottom=2cm
+}
+\usepackage[onehalfspacing]{setspace}
+
+%\ possible literature settings
+
+\usepackage[backend=biber,
+			bibstyle=authortitle,
+			citestyle=authoryear,
+			firstinits=true,
+			maxcitenames=2,
+			maxbibnames = 99,
+			style = authoryear	
+			]{biblatex}
+
+\DeclareNameAlias{sortname}{family-given}
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}} %small caps
+\renewcommand*{\mkbibcompletename}[1]{\textsc{#1}}
+\bibliography{literature}
+
+
+%\ important commands
+%\ iclude a figure
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[]{}
+\caption{}
+\label{}
+\end{center}
+\end{figure}
+
+%\ structure
+\tableofcontents
+\listoffigures
+\section
+\subsection
+\printbibliography[heading=bibintoc]
+
